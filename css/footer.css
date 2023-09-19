@@ -1,0 +1,115 @@
+.footer-nav a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 30px;    
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.first-footer{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #8D8D8D;
+    align-items: start;
+}
+
+.contact-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10%;
+}
+
+.contact{
+    color: white;
+}
+
+.h4{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 0px;
+    color: white;
+}
+
+.copyright{
+    text-align: center;
+    background-color: #3F3F3F;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.icon-wrapper{
+    margin-bottom: 70px;
+}
+.sign-up{
+    padding: 50px;
+    background-color: #3F6D69;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-wrapper{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.08px;
+}
+
+.h4-sign-up{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 45px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.sign-up-line{
+    background-color: white;
+    height: 1px;
+    width: 126px;
+    
+}
+
+.sign-up-button{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background-color: white;
+    color: #3F6D69;
+    border: solid 1px white;
+    border-radius: 0px 2px 2px 0px;
+    padding: 10px 15px 10px 15px;
+}
+
+.form{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-input{
+    padding: 13px 5px 13px 5px;
+    background-color: transparent;
+    border: solid 1px white;
+    border-radius: 2px 0px 0px 2px;
+}
+
+.logo-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+}

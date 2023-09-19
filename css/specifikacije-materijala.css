@@ -1,0 +1,116 @@
+.specifikacije-materijala .slike {
+  padding: 2% 5% 2% 5%;
+}
+.specifikacije-materijala .slike img {
+  padding-right: 1%;
+}
+.specifikacije-materijala h2 {
+  padding-left: 5%;
+  color: #4d4d4d;
+  padding-bottom: 2%;
+  text-decoration: underline;
+}
+ /*ovde je za podesavanje linije ispod teksta da bude zeljene velicine slicno kao sto imamo
+u reference horizontalne linije ovde je da podesavamo ako zelimo da bude isto kao u figmi
+jer u figmi je oko pola texta linija od ispod, gore sam naveo da mi bude ispod celog teksta
+.specifikacije-materijala h2 {
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+}
+
+.specifikacije-materijala h2::after {
+  content: "";
+  left: 0;
+  bottom: 0;
+  width: 10%;
+  height: 2px;
+  background-color: #4d4d4d;
+  position: relative;
+}
+*/
+h3{
+    padding-left: 10%;
+    color: #4d4d4d;
+}
+h3 img{
+    padding-right: 2%;
+}
+table{
+    padding: 2% 10% 2% 10%;
+    width: 100%;
+    font-size: 120%;
+    text-align: center;
+}
+table th{
+    background-color: #4d4d4d;
+    color: white;
+}
+.belo {
+    color:#4d4d4d;
+    background-color: white;
+}
+.boja{
+    color: white;
+    background-color: #30A49A;
+}
+.dugme-centar{
+    text-align: center;
+    padding-bottom: 5%;
+}
+.dugme-centar button{
+    background-color: white;
+    color: #3F6D69;
+    border: none;
+    font-size: 150%;
+}
+
+.tehnicke-specifikacije h2 {
+    padding-left: 5%;
+    color: #3F6D69;
+    padding-bottom: 2%;
+    text-decoration: underline;
+  }
+  .tehnicke-specifikacije .boldovano{
+    font-weight: bold;
+    color: black;
+  }
+  .h4-raspored{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 2%;
+  }
+  .h4-raspored h4{
+    color: #3F6D69;
+  }
+
+  .tehnicke-specifikacije .kraj{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .slicni-materijali h2 {
+    padding-left: 5%;
+    color: #3F6D69;
+    padding-bottom: 2%;
+    text-decoration: underline;
+    padding-top: 3%;
+  }
+
+  .slicni-materijali .raspored-slicnih-materijala {
+    padding: 2% 5% 5% 5%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .slicni-materijali .raspored-slicnih-materijala .red-slicnih-materijala {
+    padding-right: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }

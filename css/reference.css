@@ -1,0 +1,227 @@
+.reference .slike1 .prvi-h1 h1 {
+  color: white;
+  background-color: #3f6d69;
+  float: right;
+  text-align: center;
+  margin-top: 2%;
+  position: relative;
+  padding-right: 50%;
+}
+.reference .slike1 .prvi-h1 h1::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 75%;
+  background-color: white;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  position: absolute;
+}
+.reference .slike1 {
+  display: flex;
+  flex-direction: column;
+}
+.reference .slike1 .raspored1 {
+  display: flex;
+  flex-direction: row;
+  padding: 5% 5% 0% 5%;
+  align-items: flex-end;
+}
+.reference .slike1 .raspored1 img {
+  height: 100%;
+  padding-right: 5%;
+  padding-left: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+.reference .slike1 .raspored11 {
+  display: flex;
+  flex-direction: row;
+  padding: 5% 5% 0% 5%;
+}
+.reference .slike1 .raspored11 img {
+  height: 100%;
+  padding-right: 5%;
+  padding-left: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.reference .drugi-h1 h1 {
+  color: white;
+  background-color: #3f6d69;
+  float: right;
+  text-align: center;
+  margin-top: 2%;
+  position: relative;
+  padding-left: 30%;
+  padding-right: 5%;
+}
+.reference .drugi-h1 h1::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 45%;
+  background-color: white;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  position: absolute;
+}
+
+.reference .slike2 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.reference .slike2 .raspored2 {
+  display: flex;
+  flex-direction: row;
+  padding: 2% 5% 0%;
+  align-items: flex-end;
+}
+.reference .slike2 .raspored2 img {
+  height: 100%;
+  padding-right: 15%;
+  padding-left: 10%;
+  padding-top: 20%;
+}
+
+.reference .slike3 .treci-h1 h1 {
+  color: white;
+  background-color: #3f6d69;
+  float: left;
+  margin-top: 2%;
+  position: relative;
+  padding-left: 50%;
+  margin-bottom: 2%;
+}
+.reference .slike3 .treci-h1 h1::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 70%;
+  background-color: white;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  position: absolute;
+}
+.reference .slike3 {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+.reference .slike3 .raspored3 {
+  display: flex;
+  flex-direction: row;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.reference .slike3 .raspored31 {
+  display: flex;
+  flex-direction: column;
+}
+.reference .slike3 .raspored32 {
+  display: flex;
+  flex-direction: column;
+}
+.reference .slike3 .raspored31 img {
+  padding-bottom: 10%;
+  padding-right: 5%;
+}
+
+.reference .slike3 .raspored32 img {
+  padding-bottom: 10%;
+  padding-right: 1%;
+  padding-left: 5%;
+}
+
+.reference .slike3 .raspored32 .gornji {
+  display: flex;
+  flex-direction: row;
+}
+.reference .slike4 .cetvrti-h1 h1 {
+    color: white;
+    background-color: #3f6d69;
+    float: right;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    position: relative;
+    padding-right: 10%;
+  }
+  .reference .slike4 .cetvrti-h1 h1::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 15%;
+    background-color: white;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    position: absolute;
+  }
+  .reference .slike4 {
+    display: flex;
+    flex-direction: column;
+  }
+  .reference .slike4 .raspored4{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+  }
+
+  .reference .slike4 .raspored4 .prvi-red img{
+    padding-bottom: 10%;
+    padding-right: 10%;
+    width: 100%;
+  }
+
+  .reference .slike4 .raspored4 .drugi-red img{
+    padding-bottom: 10%;
+    width: 100%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+  }
+
+  .reference .slike5 .peti-h1 h1 {
+    color: white;
+    background-color: #3f6d69;
+    float: left;
+    margin-top: 2%;
+    position: relative;
+    padding-left: 50%;
+    margin-bottom: 2%;
+  }
+  .reference .slike5 .peti-h1 h1::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 70%;
+    background-color: white;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    position: absolute;
+  }
+  .reference  .slike5 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .reference .slike5 .raspored5{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-between;
+    padding-bottom: 2%;
+  }
+
+  
